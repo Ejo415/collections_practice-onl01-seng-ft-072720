@@ -23,7 +23,7 @@ end
 def kesha_maker(array)
   kesha = []
   array.each do |word| 
-    word.gsub(2, "$")
+    word.sub(word[3], "$")
     kesha << word
   end
   kesha
