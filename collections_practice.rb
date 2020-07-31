@@ -9,5 +9,5 @@ end
 
 def sot_array_char_count(array)
   
-  array.sort.length 
+  array.sort_by {|x| x.length} 
 end
