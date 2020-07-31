@@ -8,5 +8,5 @@ def sort_array_desc(array)
 end
 
 def sot_array_char_count(array)
- array =  array.sort_by(&:length)
+ array.sort |x, y|
 end
