@@ -23,5 +23,10 @@ end
 def kesha_maker(array)
   kesha = []
   array.each do |word| 
-    word.
+    word.insert(-3, "$")
+    kesha << word
+  end
+  kesha
+end
+
   
