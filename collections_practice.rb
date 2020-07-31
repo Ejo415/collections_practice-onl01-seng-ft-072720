@@ -39,3 +39,11 @@ def sum_array(array)
   array.inject(:+)
 end
   
+def add_s(array)
+  array.map |word|
+  if array[1] == word
+    word
+  else
+    word = "s"
+  end
+end
